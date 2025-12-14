@@ -1,0 +1,43 @@
+name: anached_denya
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  app_links: ^6.4.1
+  audioplayers: ^6.1.0 
+  cupertino_icons: ^1.0.8
+  file_picker: ^10.3.7
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.10.3
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  # لو حاب تضيف الأيقونة كـ asset داخل التطبيق نفسه:
+  # assets:
+  #   - assets/1.png
+
+  fonts:
+    - family: Kufam
+      fonts:
+        - asset: assets/fonts/Kufam-Italic-VariableFont_wght.ttf
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/Rubik-Italic-VariableFont_wght.ttf
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/1.jpg"
